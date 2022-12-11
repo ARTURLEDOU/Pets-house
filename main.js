@@ -58,6 +58,6 @@ function gotResult(error, results) {
   classifyVideo();
 }
 
-takeSnapshot(){
+function takeSnapshot(){
   save('Pet.png');
 }
