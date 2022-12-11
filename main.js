@@ -57,3 +57,7 @@ function gotResult(error, results) {
   // Classifiy again!
   classifyVideo();
 }
+
+takeSnapshot(){
+  save('Pet.png');
+}
